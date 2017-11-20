@@ -5,9 +5,12 @@
 #include<iomanip>
 #include<string>
 #include<regex>
+
 using namespace std;
 
-	
+	/*
+	 * default constructor
+	 */
 	movie::movie()
 	{}
 
@@ -74,7 +77,7 @@ using namespace std;
 			 {	//Convert string to int ....int x =stoi(stringobj)
 				 movieID = stoi(x);
 			 }
-		 
+
 		 return movieID;
 	 }
 

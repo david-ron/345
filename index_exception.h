@@ -10,6 +10,10 @@
 #include <exception>
 #include <iostream>
 #include <stdexcept>
+/* i currently have exceptions zipped file but doesnt really do anything different <_
+* _>except indicate respective index_item
+* i'm going to research more to see if i can improve upon it
+*/
 
 class index_exception : public std::exception
 {

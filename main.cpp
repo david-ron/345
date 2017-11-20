@@ -5,14 +5,14 @@
 #include<algorithm>
 #include"movie.h"
 #include<string>
-
+#include "query_exception.h"
 using namespace std;
 
 int main() {
-	
+
 
 	movie obj("Taxi Blues");
-	
+
 	cout << obj.getID() << endl;
 	cout << obj.getName() << endl;
 	cout<<obj.getReleaseDate()<<endl;
